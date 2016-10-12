@@ -10,7 +10,7 @@ function Validate(sForm, sName, sEmail, sPhone, sSelect, sCheckbox, showDiv) {
 	v.checkbox = v.form.find(sCheckbox);
 	v.showDiv = $(showDiv);
 
-	// flags 
+	// flags  
 	v.checked = false;
 	v.emailChecked = false;
 	v.nameChecked = false;
