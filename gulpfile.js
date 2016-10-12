@@ -20,7 +20,7 @@ var gulp = require('gulp'),
 
 var path = {
   build: {
-    html: 'build/',
+    html: 'build/templates/',
     js: 'build/js/',
     css: 'build/css/',
     img: 'build/img/',
