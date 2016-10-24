@@ -1,6 +1,6 @@
 function Placeholder (sSelector) { 
 	var p = this;
- 
+
 	p.input = $(sSelector);
 	
 	$(function(){

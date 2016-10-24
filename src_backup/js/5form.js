@@ -66,7 +66,7 @@ function Validate(sForm, sName, sEmail, sPhone, sSelect, sCheckbox, showDiv) {
 						   '<p>' + v.email.val() + '</p>' + 
 						   '<p>Количество участников: ' + v.select.val() + '</p>');
 			v.showDiv.css('display', 'block');
-			// v.form.submit();
+			v.form.submit();
 		}
 		else {
 			alert('Please insert the correct info');

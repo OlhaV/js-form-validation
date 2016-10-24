@@ -6,4 +6,4 @@ var patterns = {
 
 patterns.get = function(sPatternsName) {
 	return patterns[sPatternsName]; 
-}
+} 
